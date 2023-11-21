@@ -1,15 +1,15 @@
 body{
     background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
-    background-color: yellow;
+    background-color: #7BD14D;
     height: 200px;
     width: auto;
     border: solid 0px;
     border-radius: 10px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5) ;
 }
 
@@ -25,13 +25,11 @@ header{
     background-color: #9EE37D;
     border: solid 0px;
     border-radius: 10px;
-    font-family:'Monterrat';
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5) ;
 }
 
 .competences h1{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .experience{
@@ -39,13 +37,11 @@ header{
     background-color: #B3EA9A;
     border: solid 0px;
     border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5) ;
 }
 
 .experience h1{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
