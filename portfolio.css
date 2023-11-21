@@ -1,1 +1,12 @@
+body{
+    background-color: lightblue;
+}
 
+header{
+    background-color: grey;
+    height: 200px;
+    width: auto;
+    border: solid 0px;
+    border-radius: 10px;
+    text-align: center;
+}
