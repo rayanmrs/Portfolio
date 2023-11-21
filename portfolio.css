@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: white;
 }
 
 header{
@@ -10,21 +10,23 @@ header{
     border-radius: 10px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5) ;
 }
 
 .grille-principale{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 300px 20px auto;
 }
 
 .competences{
     grid-column: 1/ span 1;
     width: 300px;
     height: 1200px;
-    background-color: grey;
+    background-color: #9EE37D;
     border: solid 0px;
     border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Monterrat';
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5) ;
 }
 
 .competences h1{
@@ -33,12 +35,17 @@ header{
 }
 
 .experience{
-    grid-column: 2/ span 1;
-    background-color: grey;
-    float: right;
-    width: 400px;
+    grid-column: 3/ span 1;
+    background-color: #B3EA9A;
     border: solid 0px;
     border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5) ;
+}
+
+.experience h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
