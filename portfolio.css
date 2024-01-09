@@ -15,7 +15,7 @@ header{
 
 .grille-principale{
     display: grid;
-    grid-template-columns: 300px 20px auto;
+    grid-template-columns: calc(100%3) calc(100%3) calc(100%3);
 }
 
 .competences{
